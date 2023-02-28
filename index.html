@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Table</title>
+</head>
+<body>
+    <header>
+        <h1>Table For You!</h1>
+        <nav>
+            <a href=""><li>Japanese</li></a>
+            <a href=""><li>English</li></a>
+        </nav>
+    </header>
+    <div class="main">
+        <h4>Make Your Own List!</h4>
+        <table>
+            <thead>
+                <tr>
+                    <th>English</th>
+                    <th>Japanese</th>
+                </tr>
+            </thead>
+            <tbody id="writeHere">
+                <!-- ここにJSで入れていく -->
+            </tbody>
+        </table>
+    </div>
+    <div class="buttons">
+        <button type="button" id="addtion">行追加</button>
+        <button type="button">DB読み込み</button>
+        <button type="button">DBをこの表に更新</button>
+        <button type="button">DBをCSV出力</button>
+        <button type="button">表のクリア</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
